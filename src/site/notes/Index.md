@@ -1,3 +1,3 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/index/","pinned":true,"tags":["gardenEntry"]}
 ---
