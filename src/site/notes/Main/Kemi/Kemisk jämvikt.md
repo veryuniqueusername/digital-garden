@@ -6,9 +6,9 @@ Kemisk jämvikt beskriver en reaktion där inte all reaktant reagerar till produ
 $$
 \mathrm{A+B}\rightleftharpoons \mathrm{C+D}\qquad\mathrm{\Delta }H
 $$
-Reaktionens hastighet åt höger kan betecknas ***v<sub>1</sub>***, den åt vänster ***v<sub>2</sub>***
+Reaktionens hastighet åt höger kan betecknas ***v***<sub>1</sub>, den åt vänster ***v***<sub>2</sub>
 
-I jämvikt kommer ***v<sub>1</sub>*** = ***v<sub>2</sub>*** och koncentrationen av reaktanterna och produkterna kommer inte att förändras. När reaktionen inte ligger i jämvikt finns en “nettoreaktion” åt antingen höger eller vänster, ***v = v<sub>1</sub> - v<sub>2</sub>***
+I jämvikt kommer ***v***<sub>1</sub> = ***v***<sub>2</sub> och koncentrationen av reaktanterna och produkterna kommer inte att förändras. När reaktionen inte ligger i jämvikt finns en “nettoreaktion” åt antingen höger eller vänster, ***v*** = ***v***<sub>1</sub> - ***v***<sub>2</sub>
 
 **Exempel:**  $\mathrm{A+B}\rightleftharpoons \mathrm{C+D}$
 $[\mathrm{A}]=[\mathrm{B}]=1{,}00\,\mathrm{M}$
