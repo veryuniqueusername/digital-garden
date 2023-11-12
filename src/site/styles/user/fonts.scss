@@ -1,35 +1,35 @@
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	src: url('../../static/vollkorn/Vollkorn-Regular.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-style: italic;
 	src: url('../../static/vollkorn/Vollkorn-Italic.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 500;
 	src: url('../../static/vollkorn/Vollkorn-Medium.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 500;
 	font-style: italic;
 	src: url('../../static/vollkorn/Vollkorn-MediumItalic.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 600;
 	src: url('../../static/vollkorn/Vollkorn-SemiBold.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 600;
 	font-style: italic;
 	src: url('../../static/vollkorn/Vollkorn-SemiBoldItalic.otf')
@@ -37,26 +37,26 @@
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 700;
 	src: url('../../static/vollkorn/Vollkorn-Bold.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 700;
 	font-style: italic;
 	src: url('../../static/vollkorn/Vollkorn-BoldItalic.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 800;
 	src: url('../../static/vollkorn/Vollkorn-ExtraBold.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 800;
 	font-style: italic;
 	src: url('../../static/vollkorn/Vollkorn-ExtraBoldItalic.otf')
@@ -64,26 +64,26 @@
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 900;
 	src: url('../../static/vollkorn/Vollkorn-Black.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'Vollkorn Full';
+	font-family: 'Vollkorn';
 	font-weight: 900;
 	font-style: italic;
 	src: url('../../static/vollkorn/Vollkorn-BlackItalic.otf') format('opentype');
 }
 
 body {
-	--font-text-override: 'Vollkorn Full';
-	--h1-font: 'Vollkorn Full';
-	--h2-font: 'Vollkorn Full';
-	--h3-font: 'Vollkorn Full';
-	--h4-font: 'Vollkorn Full';
-	--h5-font: 'Vollkorn Full';
-	--h6-font: 'Vollkorn Full';
+	--font-text-override: 'Vollkorn';
+	--h1-font: 'Vollkorn';
+	--h2-font: 'Vollkorn';
+	--h3-font: 'Vollkorn';
+	--h4-font: 'Vollkorn';
+	--h5-font: 'Vollkorn';
+	--h6-font: 'Vollkorn';
 	font-feature-settings: 'ss01' on;
 	& sup,
 	& sub {
