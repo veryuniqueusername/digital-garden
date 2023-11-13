@@ -1,8 +1,7 @@
 ---
-tags:
-  - kemi
-dg-publish: true
+{"dg-publish":true,"permalink":"/main/kemi/syra-bas-jaemvikter/","tags":["kemi"]}
 ---
+
 
 En syra-bas jämvikt är en typ av [[Main/Kemi/Kemisk jämvikt\|kemisk jämvikt]] där det finns en svag syra samt en svag bas; En protolys i jämvikt.
 
