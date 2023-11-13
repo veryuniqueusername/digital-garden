@@ -1,11 +1,7 @@
 ---
-tags:
-  - kemi
-dg-publish: true
-aliases:
-  - Syrakonstant
-  - Baskonstant
+{"dg-publish":true,"permalink":"/main/kemi/syra-bas-konstant/","tags":["kemi"]}
 ---
+
 Syrakonstanten och baskonstanten är typer av [[Main/Kemi/Jämviktskonstant\|jämviktskonstanten]] som indikerar hur stor del av en syra eller bas protolyseras. Varje syra och bas har en unik konstant.
 
 ## Syrakonstant
