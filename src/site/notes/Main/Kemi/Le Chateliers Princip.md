@@ -16,7 +16,7 @@ Le Châteliers Princip säger att en [[Main/Kemi/Kemisk jämvikt\|jämviktreakti
   > 
   > Volymen halveras / trycket fördubblas:
   > $\mathrm{[A]}=2$ och $\mathrm{[B]}=2$
-  > $Q=\frac{[\mathrm{B}]^1}{[\mathrm{A}]^2}=\frac{2}{4}=0.5$
+  > $Q=\frac{[\mathrm{B}]^1}{[\mathrm{A}]^2}=\frac{2}{4}=0{,}5$
   > $Q<K:\,$Reaktionen drivs åt höger
 - **Förändring i temperatur**
   Förändring av temperatur påverkar [[Main/Kemi/Jämviktskonstant\|jämviktskonstanten]].
@@ -24,11 +24,11 @@ Le Châteliers Princip säger att en [[Main/Kemi/Kemisk jämvikt\|jämviktreakti
   Om reaktionen är [[Main/Kemi/Entalpi#^endoterm\|endoterm]] kommer $K$ att öka med temperatur och reaktionen drivs åt höger.
 
 > [!warning] Tillsats av katalysator påverkar ej jämvikten
-> Eftersom en [[Katalysator\|katalysator]] påskyndar reaktionen lika mycket åt båda hållen, är *v*<sub>1</sub> och *v*<sub>2</sub> fortfarande lika stora.
+> Eftersom en [[Katalysator\|katalysator]] påskyndar reaktionen lika mycket åt båda hållen, är $v_{1}$ och $v_{2}$  fortfarande lika stora.
 
 ## Exempel: 
 
-$$\mathrm{N_{2}O_{4}}\,(g)\rightleftharpoons \mathrm{2NO_{2}}\,(g)\quad\Delta H=-57{,}2\,\mathrm{kJ}$$
+$$\mathrm{N_{2}O_{4}(g)}\rightleftharpoons \mathrm{2NO_{2}(g)}\quad\Delta H=-57{,}2\,\mathrm{kJ}$$
 
 Vid temperaturen $60$°$\mathrm{C}$ ($333{,}15\,\mathrm{K}$) är $K=6{,}777$
 Det tillsätts $\mathrm{1{,}0\,mol\ N_{2}O_{4}}$ och $\mathrm{0{,}5\,mol\ NO_{2}}$
