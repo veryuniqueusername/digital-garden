@@ -4,11 +4,11 @@
 
 Kemisk jämvikt beskriver en reaktion där inte all reaktant reagerar till produkt
 $$
-\mathrm{A+B}\rightleftharpoons \mathrm{C+D}\qquad\mathrm{\Delta }H
+\mathrm{A+B}\rightleftharpoons \mathrm{C+D}\qquad\mathrm{\Delta}H
 $$
-Reaktionens hastighet åt höger kan betecknas ***v***<sub>1</sub>, den åt vänster ***v***<sub>2</sub>
+Reaktionens hastighet åt höger kan betecknas $v_{1}$, den åt vänster $v_{2}$.
 
-I jämvikt kommer ***v***<sub>1</sub> = ***v***<sub>2</sub> och koncentrationen av reaktanterna och produkterna kommer inte att förändras. När reaktionen inte ligger i jämvikt finns en “nettoreaktion” åt antingen höger eller vänster, ***v*** = ***v***<sub>1</sub> - ***v***<sub>2</sub>
+I jämvikt kommer $v_{1}=v_{2}$ och koncentrationen av reaktanterna och produkterna kommer inte att förändras. När reaktionen inte ligger i jämvikt finns en “nettoreaktion” åt antingen höger eller vänster, $v=v_{1}-v_{2}$
 
 **Exempel:**  $\mathrm{A+B}\rightleftharpoons \mathrm{C+D}$
 $[\mathrm{A}]=[\mathrm{B}]=1{,}00\,\mathrm{M}$
@@ -17,10 +17,18 @@ $[\mathrm{C}]=[\mathrm{D}]=0{,}00\,\mathrm{M}$
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
 
-\definecolor{color1}{RGB}{255, 0, 55}
-\definecolor{color2}{RGB}{217, 82, 0}
-\definecolor{color3}{RGB}{0, 132, 255}
-\definecolor{color4}{RGB}{176, 0, 255}
+%skip 0°
+\definecolor{color_red}{RGB}{238, 20, 1}
+\definecolor{color_orange}{RGB}{223, 70, 0}
+\definecolor{color_yellow}{RGB}{183, 112, 0}
+% skip 120°
+\definecolor{color_green}{RGB}{0, 163, 19}
+\definecolor{color_teal}{RGB}{0, 168, 134}
+\definecolor{color_blue}{RGB}{0, 158, 206}
+% skip 240°
+\definecolor{color_indigo}{RGB}{77, 105, 255}
+\definecolor{color_violet}{RGB}{154, 76, 246}
+\definecolor{color_pink}{RGB}{201, 48, 194}
 
 \begin{document}
 \begin{tikzpicture}
@@ -51,7 +59,7 @@ $[\mathrm{C}]=[\mathrm{D}]=0{,}00\,\mathrm{M}$
 	\addplot [
 	    domain=0:70, 
 	    samples=100, 
-	    color=color2,
+	    color=color_red,
 	    line width=0.7mm,
 	]
 	{5*e^(-0.15*x) + 3};
@@ -60,7 +68,7 @@ $[\mathrm{C}]=[\mathrm{D}]=0{,}00\,\mathrm{M}$
 	\addplot [
 	    domain=0:70, 
 	    samples=100, 
-	    color=color3,
+	    color=color_blue,
 	    line width=0.7mm,
 	]
 	{-3*e^(-0.15*x) + 3};
@@ -96,7 +104,7 @@ $[\mathrm{C}]=[\mathrm{D}]=0{,}00\,\mathrm{M}$
 	\addplot [
 	    domain=0:70, 
 	    samples=100, 
-	    color=color2,
+	    color=color_red,
 	    line width=0.7mm,
 	]
 	{0.4*e^(-0.15*x) + 0.6};
@@ -105,7 +113,7 @@ $[\mathrm{C}]=[\mathrm{D}]=0{,}00\,\mathrm{M}$
 	\addplot [
 	    domain=0:70, 
 	    samples=100, 
-	    color=color3,
+	    color=color_blue,
 	    line width=0.7mm,
 	]
 	{-0.4*e^(-0.15*x) + 0.4};
