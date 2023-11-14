@@ -28,9 +28,9 @@ Le Châteliers Princip säger att en [[Main/Kemi/Kemisk jämvikt\|jämviktreakti
 
 ## Exempel: 
 
-$$\mathrm{N_{2}O_{4}(g)}\rightleftharpoons \mathrm{2NO_{2}(g)}\quad\Delta H=-57{,}2\,\mathrm{kJ}$$
+$$\mathrm{N_{2}O_{4}(g)}\rightleftharpoons \mathrm{2NO_{2}(g)}\quad\Delta H=57{,}2\,\mathrm{kJ}$$
 
-Vid temperaturen $60$°$\mathrm{C}$ ($333{,}15\,\mathrm{K}$) är $K=6{,}777$
+Vid temperaturen  $400\,\mathrm{K}$ är $K=1{,}44$
 Det tillsätts $\mathrm{1{,}0\,mol\ N_{2}O_{4}}$ och $\mathrm{0{,}5\,mol\ NO_{2}}$
 Volymen antas vara $1\,\mathrm{dm^3}$
 Koncentrationerna för ämnena kan beräknas $n/V$ 
@@ -40,18 +40,8 @@ $\mathrm{[N_{2}O_{4}]=1{,}0\,M}\qquad\mathrm{[NO_{2}]=0{,}5\,M}$
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
 
-%skip 0°
 \definecolor{color_red}{RGB}{238, 20, 1}
-\definecolor{color_orange}{RGB}{223, 70, 0}
-\definecolor{color_yellow}{RGB}{183, 112, 0}
-% skip 120°
-\definecolor{color_green}{RGB}{0, 163, 19}
-\definecolor{color_teal}{RGB}{0, 168, 134}
 \definecolor{color_blue}{RGB}{0, 158, 206}
-% skip 240°
-\definecolor{color_indigo}{RGB}{77, 105, 255}
-\definecolor{color_violet}{RGB}{154, 76, 246}
-\definecolor{color_pink}{RGB}{201, 48, 194}
 
 \begin{document}
 \begin{tikzpicture}
@@ -64,16 +54,16 @@ $\mathrm{[N_{2}O_{4}]=1{,}0\,M}\qquad\mathrm{[NO_{2}]=0{,}5\,M}$
 			legend columns=-1
 		},
 	    xmin=0, xmax=70,
-	    ymin=0, ymax=1.8,
+	    ymin=0, ymax=1.4,
 		xlabel = Tid,
 		ylabel = Koncentration {[}M{]},
 		xtick=\empty,
 		extra x ticks={40},
 		extra x tick labels={Jämvikt uppnådd},
-		extra y ticks={0.4133, 1.6734},
+		extra y ticks={0.7354, 1.0292},
 		extra y tick labels={
-			{0,41},
-			{1,67}
+			{0,74},
+			{1,03}
 		},
 		extra x tick style={
 			grid=major, 
@@ -93,7 +83,7 @@ $\mathrm{[N_{2}O_{4}]=1{,}0\,M}\qquad\mathrm{[NO_{2}]=0{,}5\,M}$
 	    color=color_red,
 	    line width=0.7mm,
 	]
-	{0.5867*e^(-0.15*x) + 0.4133};
+	{0.2646*e^(-0.15*x) + 0.7354};
 	\addlegendentry{\(\mathrm{[N_{2}O_{4}]}\)}
 
 	\addplot [
@@ -102,7 +92,7 @@ $\mathrm{[N_{2}O_{4}]=1{,}0\,M}\qquad\mathrm{[NO_{2}]=0{,}5\,M}$
 	    color=color_blue,
 	    line width=0.7mm,
 	]
-	{-1.1734*e^(-0.15*x) + 1.6734};
+	{-0.5292*e^(-0.15*x) + 1.0292};
 	\addlegendentry{\(\mathrm{[NO_2]}\)}
 	
 	\end{axis}
@@ -111,12 +101,11 @@ $\mathrm{[N_{2}O_{4}]=1{,}0\,M}\qquad\mathrm{[NO_{2}]=0{,}5\,M}$
 ```
 
 $$
-K
-=\frac
+K = \frac
 {\mathrm{[NO_{2}]^{2}_{j}}}
 {\mathrm{[N_{2}O_{4}]_{j}}}
-=\frac{1{,}6734^{2}}{0{,}4133}
-=6{,}78
+=\frac{1{,}0292^{2}}{0{,}7354}
+=1{,}44
 $$
 
 <br>
@@ -129,10 +118,8 @@ Här tillsätts $0{,}5\,\mathrm{M}\ \mathrm{N_{2}O_{4}}$ till jämvikten, detta 
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
 
-\definecolor{color1}{RGB}{255, 0, 55}
-\definecolor{color2}{RGB}{217, 82, 0}
-\definecolor{color3}{RGB}{0, 132, 255}
-\definecolor{color4}{RGB}{176, 0, 255}
+\definecolor{color_red}{RGB}{238, 20, 1}
+\definecolor{color_blue}{RGB}{0, 158, 206}
 
 \begin{document}
 \begin{tikzpicture}
@@ -145,7 +132,7 @@ Här tillsätts $0{,}5\,\mathrm{M}\ \mathrm{N_{2}O_{4}}$ till jämvikten, detta 
 			legend columns=-1
 		},
 	    xmin=0, xmax=70,
-	    ymin=0, ymax=1.1,
+	    ymin=0, ymax=1.4,
 		xlabel = Tid,
 		ylabel = Koncentration {[}M{]},
 		xtick=\empty,
@@ -154,10 +141,10 @@ Här tillsätts $0{,}5\,\mathrm{M}\ \mathrm{N_{2}O_{4}}$ till jämvikten, detta 
 			\(\mathrm{N_{2}O_{4}}\) tillsätts,
 			Ny jämvikt uppnådd
 		},
-		extra y ticks={0.94313, 0.01374},
+		extra y ticks={1.1161, 1.2678},
 		extra y tick labels={
-			{0,94},
-			{0,014}
+			{1,12},
+			{1,27}
 		},
 		extra x tick style={
 			grid=major, 
@@ -174,25 +161,25 @@ Här tillsätts $0{,}5\,\mathrm{M}\ \mathrm{N_{2}O_{4}}$ till jämvikten, detta 
 	\addplot [
 	    domain=0:70, 
 	    samples=200, 
-	    color=color1,
+	    color=color_red,
 	    line width=0.7mm,
 	]
 	{
-		(x<20) * 0.6941 +
-		(x>=20) * (-0.24903*e^(-0.15*(x-20)) + 0.94313)
+		(x<20) * 0.7354 +
+		(x>=20) * (0.1193*e^(-0.15*(x-20)) + 1.1161)
 		};
 	\addlegendentry{\(\mathrm{[N_{2}O_{4}]}\)}
 
 	\addplot [
 	    domain=0:70, 
 	    samples=300,
-	    color=color2,
+	    color=color_blue,
 	    line width=0.7mm,
 	    line cap=round,
 	]
 	{
-		(x<20) * 0.0118 +
-		(x>=20) * (0.49806*e^(-0.15*(x-20)) + 0.01374)
+		(x<20) * 1.0292 +
+		(x>=20) * (-0.2386*e^(-0.15*(x-20)) + 1.2678)
 	};
 	\addlegendentry{\(\mathrm{[NO_2]}\)}
 
@@ -203,12 +190,19 @@ Här tillsätts $0{,}5\,\mathrm{M}\ \mathrm{N_{2}O_{4}}$ till jämvikten, detta 
 ```
 
 $$
-K
-=\frac
+\begin{align}
+Q &= \frac
+{\mathrm{[NO_{2}]^{2}}}
+{\mathrm{[N_{2}O_{4}]}}
+=\frac{1{,}0292^{2}}{1{,}2354}
+=0{,}857
+\\
+K &= \frac
 {\mathrm{[NO_{2}]^{2}_{j}}}
 {\mathrm{[N_{2}O_{4}]_{j}}}
-=\frac{0{,}01374^{2}}{0{,}94313}
-=2{,}0\cdot10^{-4}
+=\frac{1{,}2678^{2}}{1{,}1161}
+=1{,}44
+\end{align}
 $$
 
 $K$ är oförändrad eftersom koncentration inte påverkar jämviktskonstanten.
@@ -221,10 +215,8 @@ Här halveras trycket, vilket är detsamma som att fördubbla volymen, det drive
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
 
-\definecolor{color1}{RGB}{255, 0, 55}
-\definecolor{color2}{RGB}{217, 82, 0}
-\definecolor{color3}{RGB}{0, 132, 255}
-\definecolor{color4}{RGB}{176, 0, 255}
+\definecolor{color_red}{RGB}{238, 20, 1}
+\definecolor{color_blue}{RGB}{0, 158, 206}
 
 \begin{document}
 \begin{tikzpicture}
@@ -237,19 +229,19 @@ Här halveras trycket, vilket är detsamma som att fördubbla volymen, det drive
 			legend columns=-1
 		},
 	    xmin=0, xmax=70,
-	    ymin=0, ymax=1.0,
+	    ymin=0, ymax=1.5,
 		xlabel = Tid,
 		ylabel = Koncentration {[}M{]},
 		xtick=\empty,
 		extra x ticks={20,60},
 		extra x tick labels={
-			Volymen minskas,
+			Volymen ökas,
 			Ny jämvikt uppnådd
 		},
-		extra y ticks={0.4701515, 0.009697},
+		extra y ticks={0.4656, 0.8188},
 		extra y tick labels={
 			{0,47},
-			{0,0097}
+			{0,82}
 		},
 		extra x tick style={
 			grid=major, 
@@ -266,25 +258,25 @@ Här halveras trycket, vilket är detsamma som att fördubbla volymen, det drive
 	\addplot [
 	    domain=0:70, 
 	    samples=300,
-	    color=color2,
+	    color=color_red,
 	    line width=0.7mm,
 	    line cap=round,
 	]
 	{
-		(x<20) * 0.94313 +
-		(x>=20) * (0.0014135*e^(-0.15*(x-20)) + 0.4701515)
+		(x<20) * 1.1161 +
+		(x>=20) * (0.09245*e^(-0.15*(x-20)) + 0.4656)
 	};
 	\addlegendentry{\(\mathrm{[N_{2}O_{4}]}\)}
 
 	\addplot [
 	    domain=0:70, 
 	    samples=300,
-	    color=color3,
+	    color=color_blue,
 	    line width=0.7mm,
 	]
 	{
-		(x<20) * 0.01374 +
-		(x>=20) * (-0.002827*e^(-0.15*(x-20)) + 0.009697)
+		(x<20) * 1.2678 +
+		(x>=20) * (-0.1849*e^(-0.15*(x-20)) + 0.8188)
 	};
 	\addlegendentry{\(\mathrm{[NO_2]}\)}
 
@@ -295,36 +287,116 @@ Här halveras trycket, vilket är detsamma som att fördubbla volymen, det drive
 ```
 
 $$
-K
-=\frac
+\begin{align}
+Q &= \frac
+{\mathrm{[NO_{2}]^{2}}}
+{\mathrm{[N_{2}O_{4}]}}
+=\frac{0{,}6339^{2}}{0{,}55805}
+=0{,}72
+\\
+K &= \frac
 {\mathrm{[NO_{2}]^{2}_{j}}}
 {\mathrm{[N_{2}O_{4}]_{j}}}
-=\frac{0{,}009697^{2}}{0{,}4701515}
-=2{,}0\cdot10^{-4}
+=\frac{0{,}8188^{2}}{0{,}4656}
+=1{,}44
+\end{align}
 $$
 
 $K$ är oförändrad eftersom tryck/volym inte påverkar jämviktskonstanten.
 
 ### Förändring i temperatur:
 
-Temperaturen sänks med $\mathrm{200\,K}$ till $\mathrm{473.15\,K}$ vilket gör att $K$ blir större eftersom reaktionen är  exoterm, detta driver reaktionen åt höger.
+Temperaturen höjs med $\mathrm{100\,K}$ till $\mathrm{500\,K}$ vilket gör att $K$ blir större eftersom reaktionen är endoterm, detta driver reaktionen åt höger.
 
-Den nya jämviktskonstanten kan räknas ut med den integrerade Van ’t Hoffs ekvation:
-$$
-\ln\frac{K_{2}}{K_{1}}=\frac{\Delta H}{R}\left( \frac{1}{T_{1}}-\frac{1}{T_{2}}\right)
-$$
-Där $R$ är den allmänna gaskonstanten och $T$ är den absoluta temperaturen.
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\definecolor{color_red}{RGB}{238, 20, 1}
+\definecolor{color_blue}{RGB}{0, 158, 206}
+
+\begin{document}
+\begin{tikzpicture}
+	\begin{axis}[
+		width=10cm,
+		height=7cm,
+	    legend style={
+			at={(0.5,1.15)},
+			anchor=north,
+			legend columns=-1
+		},
+	    xmin=0, xmax=70,
+	    ymin=0, ymax=1.8,
+		xlabel = Tid,
+		ylabel = Koncentration {[}M{]},
+		xtick=\empty,
+		extra x ticks={20,60},
+		extra x tick labels={
+			Volymen ökas,
+			Ny jämvikt uppnådd
+		},
+		extra y ticks={0.06415, 1.6217},
+		extra y tick labels={
+			{0,06},
+			{1,62}
+		},
+		extra x tick style={
+			grid=major, 
+			dashed,
+		},
+		extra y tick style={
+			ticklabel pos=right,
+			y tick style={
+				draw=none,
+			}
+		},
+	]
+
+	\addplot [
+	    domain=0:70, 
+	    samples=300,
+	    color=color_red,
+	    line width=0.7mm,
+	    line cap=round,
+	]
+	{
+		(x<20) * 0.4656 +
+		(x>=20) * (0.40145*e^(-0.15*(x-20)) + 0.06415)
+	};
+	\addlegendentry{\(\mathrm{[N_{2}O_{4}]}\)}
+
+	\addplot [
+	    domain=0:70, 
+	    samples=300,
+	    color=color_blue,
+	    line width=0.7mm,
+	]
+	{
+		(x<20) * 0.8188 +
+		(x>=20) * (-0.8029*e^(-0.15*(x-20)) + 1.6217)
+	};
+	\addlegendentry{\(\mathrm{[NO_2]}\)}
+
+	
+	\end{axis}
+\end{tikzpicture}
+\end{document}
+```
 
 $$
-\ln\frac{K_{2}}{2\cdot 10^{-4}}=\frac{-57.2\cdot10^{3}}{8.314}\left( \frac{1}{673.15}-\frac{1}{473.15}\right)
+\begin{align}
+Q &= \frac
+{\mathrm{[NO_{2}]^{2}}}
+{\mathrm{[N_{2}O_{4}]}}
+=\frac{0{,}8188^{2}}{0{,}4656}
+=1{,}44
+\\
+K &= \frac
+{\mathrm{[NO_{2}]^{2}_{j}}}
+{\mathrm{[N_{2}O_{4}]_{j}}}
+=\frac{1{,}6217^{2}}{0{,}06415}
+=41{,}0
+\end{align}
 $$
 
-Bryt ut $K_{2}$
-
-$$
-K_{2}=\exp\left( \frac{-57.2\cdot10^{3}}{8.314}\left( \frac{1}{673.15}-\frac{1}{473.15}\right) \right)\cdot2\cdot 10^{-4}
-$$
-
-$$
-K_{2}=0.01504
-$$
+Jämviktskonstanten för denna reaktion är alltså $41$ vid $500\,\mathrm{K}$.
