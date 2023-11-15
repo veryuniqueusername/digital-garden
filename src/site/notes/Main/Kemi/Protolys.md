@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/kemi/protolys/","tags":["kemi"]}
 ---
 
-Protolys innebär den process då en [[Syror\|syra]] $\mathrm{HA}$ för över en vätejon till en [[Baser\|bas]].
+Protolys innebär den process då en [[Syror\|syra]] $\mathrm{HA}$ för över en vätejon till en [[Baser\|bas]]
 
 $$
 \mathrm{HA(aq) + H_{2}O(l)} \rightarrow \mathrm{H_{3}O^{+}(aq) + A^{-}(aq)}

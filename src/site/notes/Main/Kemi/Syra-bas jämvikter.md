@@ -3,7 +3,7 @@
 ---
 
 
-En syra-bas jämvikt är en typ av [[Main/Kemi/Kemisk jämvikt\|kemisk jämvikt]] där det finns en svag syra samt en svag bas; En protolys i jämvikt.
+En syra-bas jämvikt är en typ av [[Main/Kemi/Kemisk jämvikt\|kemisk jämvikt]] där det finns en svag syra samt en svag bas; En protolys i jämvikt. Denna jämvikt skapar en [[Main/Kemi/Buffertlösning\|buffertlösning]].
 
 Vid syra-bas jämvikter kan [[Main/Kemi/Syra-bas konstant\|syrakonstant samt baskonstant]] uträknas.
 

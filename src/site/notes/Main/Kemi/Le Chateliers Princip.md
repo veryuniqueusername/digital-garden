@@ -401,4 +401,4 @@ $$
 
 Jämviktskonstanten för denna reaktion är alltså $41$ vid $500\,\mathrm{K}$.
 
-![Equilibrium constants.png](/img/user/Main/Kemi/Equilibrium%20constants.png)
+![Jämviktskonstanter.png](/img/user/Main/Kemi/J%C3%A4mviktskonstanter.png)
