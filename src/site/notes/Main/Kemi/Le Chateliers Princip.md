@@ -36,6 +36,7 @@ Volymen antas vara $1\,\mathrm{dm^3}$
 Koncentrationerna för ämnena kan beräknas $n/V$ 
 $\mathrm{[N_{2}O_{4}]=1{,}0\,M}\qquad\mathrm{[NO_{2}]=0{,}5\,M}$
 
+$$K=\frac14+2a$$
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
