@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/buffertformeln/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/buffertformeln/","tags":["kemi","jämvikter","syra-bas"]}
 ---
 
 Buffertformeln används för att beräkna [[pH\|pH]] hos en [[Main/Kemi/Buffertlösning\|buffertlösning]].
