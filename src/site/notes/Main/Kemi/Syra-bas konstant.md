@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/syra-bas-konstant/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/syra-bas-konstant/","tags":["kemi","syra-bas","jämvikter"]}
 ---
 
 Syrakonstanten och baskonstanten är typer av [[Main/Kemi/Jämviktskonstant\|jämviktskonstanten]] som indikerar hur stor del av en syra eller bas protolyseras. Varje syra och bas har en unik konstant.
