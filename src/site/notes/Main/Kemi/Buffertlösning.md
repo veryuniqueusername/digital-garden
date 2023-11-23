@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/buffertloesning/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/buffertloesning/","tags":["kemi","jämvikter","syra-bas"]}
 ---
 
 En buffertlösning är en vattenlösning som består av en svag [[Syror\|syra]] och dess korresponderande [[Baser\|bas]].
