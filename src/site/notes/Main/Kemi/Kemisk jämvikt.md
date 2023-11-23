@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/kemisk-jaemvikt/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/kemisk-jaemvikt/","tags":["kemi","jämvikter"]}
 ---
 
 Kemisk jämvikt beskriver en reaktion där inte all reaktant reagerar till produkt
