@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/entalpi/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/entalpi/","tags":["kemi","fysik"]}
 ---
 
 Entalpi är ett mått på energin i ett system och betecknas med $H$, enheten är [[Joule\|joule]].
