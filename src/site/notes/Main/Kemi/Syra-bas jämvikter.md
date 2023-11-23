@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/syra-bas-jaemvikter/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/syra-bas-jaemvikter/","tags":["kemi","jämvikter","syra-bas"]}
 ---
 
 
