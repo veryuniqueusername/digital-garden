@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/vattnets-jonprodukt/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/vattnets-jonprodukt/","tags":["kemi","syra-bas","jämvikter"]}
 ---
 
 Vattnets [[Main/Kemi/Protolys\|autoprotolys]]
