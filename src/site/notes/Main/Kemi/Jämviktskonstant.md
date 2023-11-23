@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/jaemviktskonstant/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/jaemviktskonstant/","tags":["kemi","jämvikter"]}
 ---
 
 Varje [[Main/Kemi/Kemisk jämvikt\|jämviktsreaktion]] kommer alltid att ha en unik kvot mellan produkter och reaktanter, kvotens kallas jämviktskonstanten och betecknas med $K$.
