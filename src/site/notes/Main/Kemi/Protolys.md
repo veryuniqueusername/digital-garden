@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/protolys/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/protolys/","tags":["kemi","syra-bas"]}
 ---
 
 Protolys innebär den process då en [[Syror\|syra]] $\mathrm{HA}$ för över en vätejon till en [[Baser\|bas]]
