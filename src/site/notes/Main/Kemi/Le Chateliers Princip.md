@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/le-chateliers-princip/","tags":["kemi"]}
+{"dg-publish":true,"permalink":"/main/kemi/le-chateliers-princip/","tags":["kemi","jämvikter"]}
 ---
 
 Le Châteliers Princip säger att en [[Main/Kemi/Kemisk jämvikt\|jämviktreaktion]] kommer motverka förändringar som utsätts till reaktionen:
