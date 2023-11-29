@@ -4,8 +4,7 @@
 
 Kolväten är molekyler som endast består av kol och väte. Dessa föreningar studeras inom [[Main/Kemi/Organisk kemi\|organisk kemi]].
 
-Det enklaste kolvätet är metan, $\ce{ CH_{4} }$
-
+Det enklaste kolvätet är [[Main/Kemi/Alkaner\|alkanet]] metan, $\ce{ CH_{4} }$
 ```chemfig
 \usepackage{chemfig}
 
