@@ -12,9 +12,9 @@ Organiska ämnen kan delas in i många olika klasser
 	- [[Alkener\|Alkener]]
 	- [[Alkyner\|Alkyner]]
 	- [[Cykloalkaner\|Cykloalkaner]]
-	- [[Aromatiska kolväten\|Aromatiska kolväten]]
+	- [[Aromatiska kolväten\|Aromatiska kolväten/Arener]]
 - Endast $\ce{ C, H, O }$
-	- [[Hydroxiföreningar\|Hydroxiföreningar/Alkoholer]]
+	- [[Alkoholer\|Alkoholer/Hydroxiföreningar]]
 	- [[Aldehyder\|Aldehyder]]
 	- [[Karboxylsyror\|Karboxylsyror]]
 	- [[Ketoner\|Ketoner]]
