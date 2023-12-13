@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/gymnasiearbete/gymnasiearbete/","tags":["gymnasie-arbete"]}
+{"dg-publish":true,"permalink":"/main/gymnasiearbete/gymnasiearbete/","pinned":true,"tags":["gymnasie-arbete","fysik","matematik"]}
 ---
 
 Detta gymnasiearbete går ut på att hitta lösningar till [trekropparsproblemet](https://en.wikipedia.org/wiki/Three-body_problem), det vill säga att hitta startpositioner där de tre kropparna hamnar i en stabil bana.
