@@ -12,7 +12,7 @@ Body {
 
 $$
 \begin{align*}
-\boldsymbol{F}_{i} &= \sum_{j \neq i}^N G \cdot \frac{m_{1} \cdot m_{2}}{ |\boldsymbol{r}_{j} - \boldsymbol{r}_{i}|^2 } \cdot \hat{\boldsymbol{r}} \quad \text{d\"{a}r $N$ är det totala antalet kroppar} \\
+\boldsymbol{F}_{i} &= \sum_{j \neq i}^N G \cdot \frac{m_{1} \cdot m_{2}}{ |\boldsymbol{r}_{j} - \boldsymbol{r}_{i}|^2 } \cdot \hat{\boldsymbol{r}} \quad \text{d\"{a}r $N$ \"{a}r det totala antalet kroppar} \\
 \boldsymbol{F}_{i} &= \sum_{j \neq i}^N \frac{\boldsymbol{r}_{j} - \boldsymbol{r}_{i}}{ |\boldsymbol{r}_{j} - \boldsymbol{r}_{i}|^3 }
 \end{align*}
 $$
