@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/kemi/nomenklatur-foer-organiska-foereningar/","tags":["kemi","organisk-kemi"]}
 ---
 
-IUPAC (International Union of Pure Applied Chemistry) har satt upp regler på hur organiska föreningar bör namnges systematiskt.
+IUPAC (International Union of Pure Applied Chemistry) har satt upp regler på hur [[Main/Kemi/Organisk kemi\|organiska föreningar]] bör namnges systematiskt.
 
 Många ämnen har däremot också trivialnamn som ofta används, exempelvis ättikssyra istället för etansyra.
 
