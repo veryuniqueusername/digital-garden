@@ -6,7 +6,7 @@ Organisk kemi handlar om nästan alla kolföreningar (inte koloxider och vissa s
 
 Föreningarna namnges enligt [[Main/Kemi/Nomenklatur för organiska föreningar\|IUPAC:s regler]]
 
-Organiska ämnen kan delas in i många olika klasser
+Organiska ämnen kan delas in i många olika klasser. Dessa klasser kan genom kemiska reaktioner omvandlas till varandra, beskrivet i [[Main/Kemi/Det organiska stamträdet\|Det organiska stamträdet]] genom olika [[Reaktionsmekanismer\|Reaktionsmekanismer]]
 - Kolväten
 	- [[Main/Kemi/Alkaner\|Alkaner]]
 	- [[Alkener\|Alkener]]
@@ -23,4 +23,3 @@ Organiska ämnen kan delas in i många olika klasser
 - [[Aminer\|Aminer]]
 - [[Amider\|Amider]]
 - [[Alkylhalogenider\|Alkylhalogenider]]
-
