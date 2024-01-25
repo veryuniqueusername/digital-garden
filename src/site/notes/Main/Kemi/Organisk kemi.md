@@ -1,25 +1,28 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/organisk-kemi/","tags":["kemi","organisk-kemi"]}
+tags:
+  - kemi
+  - organisk-kemi
+dg-publish: true
 ---
-
 Organisk kemi handlar om nästan alla kolföreningar (inte koloxider och vissa salter). Organiska ämnen innehåller alltid kol och ofta väte, andra atomer kan också ingå, exempelvis syre, kväve, fosfor och halogener. Organiska ämnen med endast kol och väte kallas [[Main/Kemi/Kolväte\|kolväten]].
 
 Föreningarna namnges enligt [[Main/Kemi/Nomenklatur för organiska föreningar\|IUPAC:s regler]]
 
 Organiska ämnen kan delas in i många olika klasser. Dessa klasser kan genom kemiska reaktioner omvandlas till varandra, beskrivet i [[Main/Kemi/Det organiska stamträdet\|Det organiska stamträdet]] genom olika [[Reaktionsmekanismer\|Reaktionsmekanismer]]
+
 - Kolväten
-	- [[Main/Kemi/Alkaner\|Alkaner]]
-	- [[Alkener\|Alkener]]
-	- [[Alkyner\|Alkyner]]
-	- [[Cykloalkaner\|Cykloalkaner]]
-	- [[Aromatiska kolväten\|Aromatiska kolväten/Arener]]
+  - [[Main/Kemi/Alkaner\|Alkaner]]
+  - [[Alkener\|Alkener]]
+  - [[Alkyner\|Alkyner]]
+  - [[Cykloalkaner\|Cykloalkaner]]
+  - [[Aromatiska kolväten\|Aromatiska kolväten/Arener]]
 - Endast $\ce{ C, H, O }$
-	- [[Alkoholer\|Alkoholer/Hydroxiföreningar]]
-	- [[Aldehyder\|Aldehyder]]
-	- [[Karboxylsyror\|Karboxylsyror]]
-	- [[Ketoner\|Ketoner]]
-	- [[Etrar\|Etrar]]
-	- [[Estrar\|Estrar]]
+  - [[Alkoholer\|Alkoholer/Hydroxiföreningar]]
+  - [[Aldehyder\|Aldehyder]]
+  - [[Karboxylsyror\|Karboxylsyror]]
+  - [[Ketoner\|Ketoner]]
+  - [[Etrar\|Etrar]]
+  - [[Estrar\|Estrar]]
 - [[Aminer\|Aminer]]
 - [[Amider\|Amider]]
 - [[Alkylhalogenider\|Alkylhalogenider]]
