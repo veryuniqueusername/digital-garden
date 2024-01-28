@@ -6,7 +6,7 @@ const classedTikz = Array.from(
 const presTikz = [];
 
 classedTikz.forEach((element) => {
-	if (element.tagName == 'pre') {
+	if (element.tagName == 'PRE') {
 		presTikz.push(element);
 	}
 });
@@ -17,6 +17,7 @@ presTikz.forEach((element) => {
 	let script = document.createElement('script');
 	script.innerHTML = tikz;
 	script.className = 'language-tikz';
+	script.type = 'text/tikz';
 	element.replaceWith(script);
 });
 
@@ -28,7 +29,7 @@ const classedChem = Array.from(
 const presChem = [];
 
 classedChem.forEach((element) => {
-	if (element.tagName == 'pre') {
+	if (element.tagName == 'PRE') {
 		presChem.push(element);
 	}
 });
@@ -39,5 +40,6 @@ presChem.forEach((element) => {
 	let script = document.createElement('script');
 	script.innerHTML = chem;
 	script.className = 'language-chemfig';
+	script.type = 'text/tikz';
 	element.replaceWith(script);
 });
