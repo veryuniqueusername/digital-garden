@@ -1,11 +1,8 @@
 ---
-tags:
-  - kemi
-  - organisk-kemi
-dg-publish: true
-draft: true
+{"dg-publish":true,"permalink":"/main/kemi/reaktionsmekanismer/","tags":["kemi","organisk-kemi"]}
 ---
-Reaktionsmekanismer syftar på olika sorters reaktioner som organiska föreningar kan genomgå för att omvandlas till andra föreningar.
+
+Reaktionsmekanismer syftar på olika sorters reaktioner som organiska föreningar kan genomgå för att omvandlas till andra föreningar i [[Main/Kemi/Det organiska stamträdet\|det organiska stamträdet]].
 
 De reaktionsmekanismer som finns är
 
