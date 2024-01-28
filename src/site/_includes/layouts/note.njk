@@ -12,9 +12,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% for imp in dynamics.notes.head %}
       {% include imp %}
     {% endfor %}
-    <script src="src/site/static/tikzjax/changeElement.js"></script>
-    <link rel="stylesheet" type="text/css" href="src/site/static/tikzjax/fonts.css">
-    <script src="src/site/static/tikzjax/tikzjax.js"></script>
+    <script src="/src/site/static/tikzjax/changeElement.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/site/static/tikzjax/fonts.css">
+    <script src="/src/site/static/tikzjax/tikzjax.js"></script>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}

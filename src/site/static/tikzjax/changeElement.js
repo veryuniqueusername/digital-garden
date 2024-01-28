@@ -3,7 +3,7 @@ const classedTikz = Array.from(
 	document.getElementsByClassName('language-tikz')
 );
 
-const presTikz: Element[] = [];
+const presTikz = [];
 
 classedTikz.forEach((element) => {
 	if (element.tagName == 'pre') {
@@ -25,7 +25,7 @@ const classedChem = Array.from(
 	document.getElementsByClassName('language-chemfig')
 );
 
-const presChem: Element[] = [];
+const presChem = [];
 
 classedChem.forEach((element) => {
 	if (element.tagName == 'pre') {
