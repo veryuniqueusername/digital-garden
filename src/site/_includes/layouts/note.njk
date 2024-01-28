@@ -13,12 +13,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
   </head>
-  <body onload="() => {
-    changeElement('tikz');
-    invertSVGcolors('tikz');
-    changeElement('chemfig');
-    invertSVGcolors('chemfig');
-    }" class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     
     {% if settings.dgShowFileTree !== true %}

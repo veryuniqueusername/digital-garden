@@ -1,5 +1,4 @@
 function changeElement(lang) {
-	// Chemfig
 	let classed = Array.from(document.getElementsByClassName(`language-${lang}`));
 
 	let pres = [];
