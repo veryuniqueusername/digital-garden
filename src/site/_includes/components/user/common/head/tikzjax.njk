@@ -1,7 +1,10 @@
 <script src="/scripts/changeElement.js" ></script>
 <script src="/scripts/tikzjax.js" ></script>
+<script "text/javascript">
+`${tikzjax_default}`
+</script>
 <script src="/scripts/postProcessTikz.js" ></script>
-<script type="text/javascript">
+<script type="text/javascript" defer>
   changeElement('tikz');
   invertSVGcolors('tikz');
   changeElement('chemfig');
