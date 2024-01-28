@@ -45,3 +45,5 @@ function changeElement() {
 		element.replaceWith(script);
 	});
 }
+
+changeElement();
