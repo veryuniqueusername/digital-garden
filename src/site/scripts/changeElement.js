@@ -14,7 +14,7 @@ function changeElement(lang) {
 		let codeblock = element.children[0];
 		let tikz = codeblock.innerHTML;
 		let div = document.createElement('div');
-		div.className = `block-language-${chemfig}`;
+		div.className = `block-language-${lang}`;
 		let script = document.createElement('script');
 		script.innerHTML = tikz;
 		script.className = `language-${lang}`;
