@@ -1,6 +1,6 @@
 // Tikz
 const classedTikz = Array.from(
-	document.getElementsByClassName('language-tikz')
+	document.getElementsByClassName(' language-tikz')
 );
 
 const presTikz = [];
@@ -23,7 +23,7 @@ presTikz.forEach((element) => {
 
 // Chemfig
 const classedChem = Array.from(
-	document.getElementsByClassName('language-chemfig')
+	document.getElementsByClassName(' language-chemfig')
 );
 
 const presChem = [];
