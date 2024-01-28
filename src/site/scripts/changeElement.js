@@ -13,6 +13,7 @@ function changeElement(lang) {
 	pres.forEach((element) => {
 		let codeblock = element.children[0];
 		let tikz = codeblock.innerHTML;
+		tikz = tidyTikzSource(tikz);
 		let div = document.createElement('div');
 		div.className = `block-language-${lang}`;
 		let script = document.createElement('script');
@@ -22,4 +23,13 @@ function changeElement(lang) {
 		div.appendChild(script);
 		element.replaceWith(div);
 	});
+}
+
+function tidyTikzSource(tikzSource) {
+	const remove = '&nbsp;';
+	tikzSource = tikzSource.replaceAll(remove, '');
+	let lines = tikzSource.split('\n');
+	lines = lines.map((line) => line.trim());
+	lines = lines.filter((line) => line);
+	return lines.join('\n');
 }
