@@ -16,6 +16,3 @@ function invertSVGcolors(lang) {
 		element.innerHTML = inner;
 	});
 }
-
-invertSVGcolors('tikz');
-invertSVGcolors('chemfig');

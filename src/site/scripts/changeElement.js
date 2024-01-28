@@ -23,6 +23,3 @@ function changeElement(lang) {
 		element.replaceWith(div);
 	});
 }
-
-changeElement('tikz');
-changeElement('chemfig');
