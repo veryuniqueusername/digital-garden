@@ -3,7 +3,7 @@
 <script type="text/javascript">
   postProcessSvg = (e) => {
     const svg = e.target;
-    invertSVGcolors(svg)
+    invertSVGcolors(svg);
   };
 	document.addEventListener('tikzjax-load-finished', postProcessSvg);
   changeElement('tikz');
