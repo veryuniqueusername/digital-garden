@@ -22,6 +22,8 @@ function changeElement(lang) {
 		div.appendChild(script);
 		element.replaceWith(div);
 	});
+
+	console.log(`ran changeElement on ${pres}`);
 }
 
 function tidyTikzSource(tikzSource) {
