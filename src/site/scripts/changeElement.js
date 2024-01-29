@@ -18,6 +18,7 @@ function changeElement(lang) {
 		let script = document.createElement('script');
 		script.innerHTML = tikz;
 		script.className = `language-${lang}`;
+		script.setAttribute('data-show-console', 'true');
 		script.type = 'text/tikz';
 		div.appendChild(script);
 		element.replaceWith(div);
