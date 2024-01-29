@@ -1,3 +1,111 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) =>
+	key in obj
+		? __defProp(obj, key, {
+				enumerable: true,
+				configurable: true,
+				writable: true,
+				value,
+		  })
+		: (obj[key] = value);
+var __spreadValues = (a, b) => {
+	for (var prop2 in b || (b = {}))
+		if (__hasOwnProp.call(b, prop2)) __defNormalProp(a, prop2, b[prop2]);
+	if (__getOwnPropSymbols)
+		for (var prop2 of __getOwnPropSymbols(b)) {
+			if (__propIsEnum.call(b, prop2)) __defNormalProp(a, prop2, b[prop2]);
+		}
+	return a;
+};
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
+var __markAsModule = (target2) =>
+	__defProp(target2, '__esModule', { value: true });
+var __objRest = (source, exclude) => {
+	var target2 = {};
+	for (var prop2 in source)
+		if (__hasOwnProp.call(source, prop2) && exclude.indexOf(prop2) < 0)
+			target2[prop2] = source[prop2];
+	if (source != null && __getOwnPropSymbols)
+		for (var prop2 of __getOwnPropSymbols(source)) {
+			if (exclude.indexOf(prop2) < 0 && __propIsEnum.call(source, prop2))
+				target2[prop2] = source[prop2];
+		}
+	return target2;
+};
+var __commonJS = (cb, mod) =>
+	function __require() {
+		return (
+			mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod),
+			mod.exports
+		);
+	};
+var __export = (target2, all) => {
+	__markAsModule(target2);
+	for (var name2 in all)
+		__defProp(target2, name2, { get: all[name2], enumerable: true });
+};
+var __reExport = (target2, module2, desc) => {
+	if (
+		(module2 && typeof module2 === 'object') ||
+		typeof module2 === 'function'
+	) {
+		for (let key of __getOwnPropNames(module2))
+			if (!__hasOwnProp.call(target2, key) && key !== 'default')
+				__defProp(target2, key, {
+					get: () => module2[key],
+					enumerable:
+						!(desc = __getOwnPropDesc(module2, key)) || desc.enumerable,
+				});
+	}
+	return target2;
+};
+var __toModule = (module2) => {
+	return __reExport(
+		__markAsModule(
+			__defProp(
+				module2 != null ? __create(__getProtoOf(module2)) : {},
+				'default',
+				module2 && module2.__esModule && 'default' in module2
+					? { get: () => module2.default, enumerable: true }
+					: { value: module2, enumerable: true }
+			)
+		),
+		module2
+	);
+};
+var __async = (__this, __arguments, generator) => {
+	return new Promise((resolve, reject) => {
+		var fulfilled = (value) => {
+			try {
+				step(generator.next(value));
+			} catch (e) {
+				reject(e);
+			}
+		};
+		var rejected = (value) => {
+			try {
+				step(generator.throw(value));
+			} catch (e) {
+				reject(e);
+			}
+		};
+		var step = (x) =>
+			x.done
+				? resolve(x.value)
+				: Promise.resolve(x.value).then(fulfilled, rejected);
+		step((generator = generator.apply(__this, __arguments)).next());
+	});
+};
+
 // svgo.browser.js
 var commonjsGlobal =
 	typeof globalThis !== 'undefined'
