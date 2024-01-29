@@ -11,12 +11,12 @@ function changeElement(lang) {
 
 	pres.forEach((element) => {
 		let codeblock = element.children[0];
-		let tikz = codeblock.innerHTML;
+		let tikz = codeblock.textContent;
 		tikz = tidyTikzSource(tikz);
 		let div = document.createElement('div');
 		div.className = `block-language-${lang}`;
 		let script = document.createElement('script');
-		script.innerHTML = tikz;
+		script.textContent = tikz;
 		script.className = `language-${lang}`;
 		script.setAttribute('data-show-console', 'true');
 		script.type = 'text/tikz';
