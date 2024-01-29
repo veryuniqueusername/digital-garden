@@ -1,10 +1,26 @@
 <script src="/scripts/changeElement.js"></script>
-<script src="/scripts/postProcessTikz.js"></script>
 <script type="text/javascript">
+
   const doTikz = (e) => {
     const postProcessSvg = (e) => {
-      const svg = e.target;
-      invertSVGcolors(svg);
+      const svgEl = e.target;
+      let svg = svgEl.outerHTML;
+      svg = svg
+        .replaceAll(/("#000"|"black")/g, `"var(--text-normal)"`)
+        .replaceAll(/("#fff"|"white")/g, `"var(--background-primary)"`);
+      svg = optimize_1(svg, {
+        plugins: [
+          {
+            name: "preset-default",
+            params: {
+              overrides: {
+                cleanupIDs: false
+              }
+            }
+          }
+        ]
+      }).data;
+      svgEl.outerHTML = svg;
     };
     document.addEventListener('tikzjax-load-finished', postProcessSvg);
     changeElement('tikz');
