@@ -9,6 +9,7 @@
       svg = svg
         .replaceAll(/("#000"|"black")/g, `"var(--text-normal)"`)
         .replaceAll(/("#fff"|"white")/g, `"var(--background-primary)"`);
+      
       svg = optimize_1(svg, {
         plugins: [
           {
@@ -21,6 +22,14 @@
           }
         ]
       }).data;
+
+      svg = svg
+			.replaceAll(
+				/<g stroke="none">/g,
+				`<g stroke-width=".4" stroke="currentColor" fill="currentColor" stroke-miterlimit="10">`
+			)
+			.replaceAll(/(<text [a-zA-Z0-9=".\-\s\(\)]*)>/g, `$1 stroke="none">`);
+        
       svgEl.outerHTML = svg;
     };
     document.addEventListener('tikzjax-load-finished', postProcessSvg);
