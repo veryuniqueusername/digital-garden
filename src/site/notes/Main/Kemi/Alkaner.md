@@ -20,7 +20,7 @@ Den enklaste alkanen är metan, $\ce{ CH_{4} }$.
 Alkaner kan omvandlas till [[Alkener\|Alkener]], [[Alkoholer\|Alkoholer]] och [[Main/Kemi/Halogenalkaner\|Halogenalkaner]].
 
 ## Alkan → Alken
-[[Radikalreaktioner\|Radikalreaktion]], [[Eliminationsreaktioner\|Eliminationsreaktion]]
+[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Eliminationsreaktioner\|Eliminationsreaktion]]
 Dehydrogenering
 
 ```chemfig
@@ -59,7 +59,83 @@ Dehydrogenering
 ```
 
 ## Alkan → Alkohol
-[[Radikalreaktioner\|Radikalreaktion]], [[Substitutionsreaktioner\|Substitutionsreaktion]]
+[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Substitutionsreaktioner\|Substitutionsreaktion]]
+
+```chemfig
+\usepackage{chemfig}
+
+\begin{document}
+
+\LARGE
+\setchemfig{
+	atom sep=2.5em,
+	double bond sep = 0.2em,
+	bond offset = 0.2em,
+	bond style={
+		line width=0.05em
+	},
+	arrow style = thick,
+}
+
+\schemestart
+  \chemname
+    {
+      \chemfig{R-C(-[2]H)(-[6]H)-H}
+    }
+    {Alkan}
+  \+
+  \chemfig{?}
+  \arrow(.mid east--.mid west){->}
+  \chemname
+    {
+      \chemfig{R-C(-[2]H)(-[6]H)-OH}
+    }
+    {Alkohol}
+\schemestop
+
+\end{document}
+```
 
 ## Alkan → Halogenalkan
-[[Radikalreaktioner\|Radikalreaktion]], [[Substitutionsreaktioner\|Substitutionsreaktion]]
+[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Substitutionsreaktioner\|Substitutionsreaktion]]
+
+```chemfig
+\usepackage{chemfig}
+
+\begin{document}
+
+\LARGE
+\setchemfig{
+	atom sep=2.5em,
+	double bond sep = 0.2em,
+	bond offset = 0.2em,
+	bond style={
+		line width=0.05em
+	},
+	arrow style = thick,
+}
+
+\schemestart
+  \chemname
+    {
+      \chemfig{R-C(-[2]H)(-[6]H)-H}
+    }
+    {Alkan}
+  \+
+  \chemname
+    {
+      \chemfig{X-X}
+    }
+	{Halogen}
+  \arrow(.mid east--.mid west){->[$\hbar\nu$]}
+  \chemname
+    {
+      \chemfig{R-C(-[2]H)(-[6]H)-X}
+    }
+    {Halogenalkan}
+	\+
+	\chemfig{H-X}
+\schemestop
+
+\end{document}
+```
