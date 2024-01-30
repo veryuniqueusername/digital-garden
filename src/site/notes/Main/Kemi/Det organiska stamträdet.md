@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/det-organiska-stamtraedet/"}
+{"dg-publish":true,"permalink":"/main/kemi/det-organiska-stamtraedet/","tags":["kemi","organisk-kemi"]}
 ---
 
 ```tikz
