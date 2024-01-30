@@ -8,12 +8,12 @@ Föreningarna namnges enligt [[Main/Kemi/Nomenklatur för organiska föreningar\
 
 Organiska ämnen kan delas in i många olika klasser. Dessa klasser kan genom kemiska reaktioner omvandlas till varandra, beskrivet i [[Main/Kemi/Det organiska stamträdet\|Det organiska stamträdet]] genom olika [[Main/Kemi/Reaktionsmekanismer\|Reaktionsmekanismer]]
 
-- Kolväten
+- Endast $\ce{ C, H }$
   - [[Main/Kemi/Alkaner\|Alkaner]]
   - [[Alkener\|Alkener]]
   - [[Alkyner\|Alkyner]]
   - [[Cykloalkaner\|Cykloalkaner]]
-  - [[Aromatiska kolväten\|Aromatiska kolväten/Arener]]
+  - [[Arener\|Arener/Aromatiska kolväten]]
 - Endast $\ce{ C, H, O }$
   - [[Alkoholer\|Alkoholer/Hydroxiföreningar]]
   - [[Aldehyder\|Aldehyder]]
@@ -23,4 +23,4 @@ Organiska ämnen kan delas in i många olika klasser. Dessa klasser kan genom ke
   - [[Estrar\|Estrar]]
 - [[Aminer\|Aminer]]
 - [[Amider\|Amider]]
-- [[Alkylhalogenider\|Alkylhalogenider]]
+- [[Main/Kemi/Halogenalkaner\|Halogenalkaner/Alkylhalogenider]]
