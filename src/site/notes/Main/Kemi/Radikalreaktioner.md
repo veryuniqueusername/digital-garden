@@ -9,7 +9,7 @@ Radikalreaktioner är antingen substitutions-, additions- eller eliminationsreak
 2. **Propagering** - Kedjereaktion där fria radikaler reagerar med andra molekyler och bildar nya radikaler.
 3. **Terminering** - Reaktionskedjan bryts när två radikaler reagerar med varandra → Inga nya radikaler bildas
 
-## Exempel: Bildning av klormetan
+## Ex Substitution: Bildning av klormetan
 
 ### 1. Initiering
 
@@ -257,3 +257,9 @@ Två radikaler reagerar med varandra och en bindning bildas av de fria elektrone
 
 \end{document}
 ```
+
+## Ex Addition: 
+
+
+## Ex Elimination: 
+
