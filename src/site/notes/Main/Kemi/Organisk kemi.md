@@ -10,7 +10,7 @@ Organiska ämnen kan delas in i många olika klasser. Dessa klasser kan genom ke
 
 - Endast $\ce{ C, H }$
   - [[Main/Kemi/Alkaner\|Alkaner]]
-  - [[Alkener\|Alkener]]
+  - [[Main/Kemi/Alkener\|Alkener]]
   - [[Alkyner\|Alkyner]]
   - [[Cykloalkaner\|Cykloalkaner]]
   - [[Arener\|Arener/Aromatiska kolväten]]
