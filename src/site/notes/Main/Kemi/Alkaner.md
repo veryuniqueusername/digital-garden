@@ -12,16 +12,24 @@ Den enklaste alkanen är metan, $\ce{ CH_{4} }$.
 \usepackage{chemfig}
 \begin{document}
 \LARGE
-\setchemfig{atom sep=2em} 
+\setchemfig{
+	atom sep=2.5em,
+	double bond sep = 0.2em,
+	bond offset = 0.2em,
+	bond style={
+		line width=0.05em
+	},
+	arrow style = thick,
+}
 \chemfig{H-C(-[2]H)(-[6]H)-H}
 \end{document}
 ```
 
-Alkaner kan omvandlas till [[Alkener\|Alkener]], [[Alkoholer\|Alkoholer]] och [[Main/Kemi/Halogenalkaner\|Halogenalkaner]].
+Alkaner kan omvandlas till [[Main/Kemi/Alkener\|Alkener]], [[Alkoholer\|Alkoholer]] och [[Main/Kemi/Halogenalkaner\|Halogenalkaner]].
 
 ## Alkan → Alken
 [[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Eliminationsreaktioner\|Eliminationsreaktion]]
-Dehydrogenering
+Dehydrogenering, behöver en väldigt stark katalysator
 
 ```chemfig
 \usepackage{chemfig}
@@ -59,7 +67,8 @@ Dehydrogenering
 ```
 
 ## Alkan → Alkohol
-[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Substitutionsreaktioner\|Substitutionsreaktion]]
+[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Main/Kemi/Substitutionsreaktioner\|Substitutionsreaktion]]
+Vatten bryts till OH-radikal och H-radikal.
 
 ```chemfig
 \usepackage{chemfig}
@@ -84,8 +93,12 @@ Dehydrogenering
     }
     {Alkan}
   \+
-  \chemfig{?}
-  \arrow(.mid east--.mid west){->}
+  \chemname
+    {
+      \chemfig{H_2O}
+    }
+	{Vatten}
+  \arrow(.mid east--.mid west){->[$\hbar\nu$]}
   \chemname
     {
       \chemfig{R-C(-[2]H)(-[6]H)-OH}
@@ -97,7 +110,7 @@ Dehydrogenering
 ```
 
 ## Alkan → Halogenalkan
-[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Substitutionsreaktioner\|Substitutionsreaktion]]
+[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Main/Kemi/Substitutionsreaktioner\|Substitutionsreaktion]]
 
 ```chemfig
 \usepackage{chemfig}
