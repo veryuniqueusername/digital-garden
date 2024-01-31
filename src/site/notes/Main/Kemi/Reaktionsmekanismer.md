@@ -6,7 +6,7 @@ Reaktionsmekanismer syftar på olika sorters reaktioner som organiska föreninga
 
 De reaktionsmekanismer som finns är
 
-- [[Substitutionsreaktioner\|Substitutionsreaktioner]] (Aa + Bb → Ab + Ba)
+- [[Main/Kemi/Substitutionsreaktioner\|Substitutionsreaktioner]] (Aa + Bb → Ab + Ba)
 - [[Additionsreaktioner\|Additionsreaktioner]] (A + B → C)
 - [[Eliminationsreaktioner\|Eliminationsreaktioner]] (A → B + C)
 - [[Main/Kemi/Radikalreaktioner\|Radikalreaktioner]]
