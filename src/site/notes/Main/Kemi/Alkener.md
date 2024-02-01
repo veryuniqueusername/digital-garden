@@ -29,7 +29,7 @@ Den enklaste alkenen är eten, $\ce{ C_{2}H_{4} }$
 Alkaner kan omvandlas till [[Main/Kemi/Alkaner\|Alkaner]], [[Alkoholer\|Alkoholer]], [[Main/Kemi/Halogenalkaner\|Halogenalkaner]], [[Aminer\|Aminer]] och [[Polymerer\|Polymerer]].
 
 ## Alken → Alkan
-[[Additionsreaktioner\|Additionsreaktion]]
+[[Main/Kemi/Additionsreaktioner\|Additionsreaktion]]
 Hydrogenering, behöver katalysator
 
 ```chemfig
@@ -47,7 +47,10 @@ Hydrogenering, behöver katalysator
 	},
 	arrow style = thick,
 }
-
+    \chemnameinit
+    {
+      \chemfig{R-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}
+    }
 \schemestart
     \chemname
     {
@@ -69,8 +72,8 @@ Hydrogenering, behöver katalysator
 ```
 
 ## Alken → Alkohol
-[[Additionsreaktioner\|Additionsreaktion]]
-Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer.
+[[Main/Kemi/Additionsreaktioner\|Additionsreaktion]]
+Enligt [[Main/Kemi/Markovnikovs regel\|Markovnikovs regel]] bildas fler sekundära alkoholer.
 
 ```chemfig
 \usepackage{chemfig}
@@ -88,6 +91,7 @@ Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer
 	arrow style = thick,
 }
 
+\chemnameinit{\chemfig{R-C(-[2]OH)(-[6]H)-C(-[2]H)(-[6]H)-H}}
 \schemestart
     \chemname
     {
@@ -113,7 +117,7 @@ Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer
 \end{document}
 ```
 ## Alken → Halogenalkan
-[[Additionsreaktioner\|Additionsreaktion]]
+[[Main/Kemi/Additionsreaktioner\|Additionsreaktion]]
 
 ```chemfig
 \usepackage{chemfig}
@@ -131,6 +135,7 @@ Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer
 	arrow style = thick,
 }
 
+\chemnameinit{\chemfig{R-C(-[2]X)(-[6]H)-C(-[2]H)(-[6]H)-H}}
 \schemestart
     \chemname
     {
@@ -156,7 +161,7 @@ Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer
 \end{document}
 ```
 ## Alken → Amin
-[[Additionsreaktioner\|Additionsreaktion]]
+[[Main/Kemi/Additionsreaktioner\|Additionsreaktion]]
 
 ```chemfig
 \usepackage{chemfig}
@@ -174,6 +179,7 @@ Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer
 	arrow style = thick,
 }
 
+\chemnameinit{\chemfig{R-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]NH_2)-H}}
 \schemestart
     \chemname
     {
@@ -195,3 +201,38 @@ Enligt [[Markonikovs regel\|Markonikovs regel]] bildas fler sekundära alkoholer
 
 ## Alken → Polymer
 [[Polymerisationsreaktioner\|Polymerisationsreaktion]]
+
+
+```chemfig
+\usepackage{chemfig}
+
+\begin{document}
+
+\LARGE
+\setchemfig{
+	atom sep=2.5em,
+	double bond sep = 0.2em,
+	bond offset = 0.2em,
+	bond style={
+		line width=0.05em
+	},
+	arrow style = thick,
+}
+
+\schemestart
+    \chemname
+    {
+    n
+      \chemfig{C(-[3]H)(-[5]R)=C(-[1]H)(-[7]H)}
+    }
+    {Alken}
+  \arrow(.mid east--.mid west){->}
+    \chemname
+    {
+      \chemfig{R-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]NH_2)-H}
+    }
+    {Alkylamin}
+\schemestop
+
+\end{document}
+```
