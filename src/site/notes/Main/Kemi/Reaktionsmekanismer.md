@@ -7,11 +7,11 @@ Reaktionsmekanismer syftar på olika sorters reaktioner som organiska föreninga
 De reaktionsmekanismer som finns är
 
 - [[Main/Kemi/Substitutionsreaktioner\|Substitutionsreaktioner]] (Aa + Bb → Ab + Ba)
-- [[Additionsreaktioner\|Additionsreaktioner]] (A + B → C)
+- [[Main/Kemi/Additionsreaktioner\|Additionsreaktioner]] (A + B → C)
 - [[Eliminationsreaktioner\|Eliminationsreaktioner]] (A → B + C)
 - [[Main/Kemi/Radikalreaktioner\|Radikalreaktioner]]
 - [[Polymerisationsreaktioner\|Polymerisationsreaktioner]] (A + A → AA)
 - [[Oxidationsreaktioner\|Oxidationsreaktioner]]
 - [[Kondensationsreaktion\|Kondensationsreaktion]]
 
-Se även [[Nukleofil attack\|Nukleofil attack]], [[Formell laddning\|Formell laddning]], [[Markonikovs regel\|Markonikovs regel]]
+Se även [[Nukleofil attack\|Nukleofil attack]], [[Formell laddning\|Formell laddning]], [[Main/Kemi/Markovnikovs regel\|Markovnikovs regel]]
