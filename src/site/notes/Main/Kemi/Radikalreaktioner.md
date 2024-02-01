@@ -2,8 +2,7 @@
 {"dg-publish":true,"permalink":"/main/kemi/radikalreaktioner/"}
 ---
 
-
-Radikalreaktioner är antingen substitutions-, additions- eller eliminationsreaktioner. De består alltid av tre steg:
+Radikalreaktioner är en sorts [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]] där radikaler inducerar substitutions-, additions- eller eliminationsreaktioner. De består alltid av tre steg:
 
 1. **Initiering** - [[Fria radikaler\|Fria radikaler]] bildas.
 2. **Propagering** - Kedjereaktion där fria radikaler reagerar med andra molekyler och bildar nya radikaler.
