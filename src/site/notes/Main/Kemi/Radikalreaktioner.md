@@ -1,16 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/radikalreaktioner/"}
+tags:
+  - kemi
+  - organisk-kemi
+dg-publish: true
+status: draft
 ---
-
 Radikalreaktioner är en sorts [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]] där radikaler inducerar substitutions-, additions- eller eliminationsreaktioner. De består alltid av tre steg:
 
 1. **Initiering** - [[Fria radikaler\|Fria radikaler]] bildas.
 2. **Propagering** - Kedjereaktion där fria radikaler reagerar med andra molekyler och bildar nya radikaler.
 3. **Terminering** - Reaktionskedjan bryts när två radikaler reagerar med varandra → Inga nya radikaler bildas
 
-## Ex Substitution: Bildning av klormetan
+## Ex substitution: Bildning av klormetan
 
-### 1. Initiering
+### Initiering
 
 UV-strålning bryter bindningen i en klormolekyl vilket skapar fria radikaler.
 
@@ -257,8 +260,8 @@ Två radikaler reagerar med varandra och en bindning bildas av de fria elektrone
 \end{document}
 ```
 
-## Ex Addition: 
+## Ex addition: 
 
 
-## Ex Elimination: 
+## Ex elimination: 
 
