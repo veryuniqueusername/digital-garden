@@ -10,7 +10,7 @@ De reaktionsmekanismer som finns är
 - [[Main/Kemi/Additionsreaktioner\|Additionsreaktioner]] (A + B → C)
 - [[Eliminationsreaktioner\|Eliminationsreaktioner]] (A → B + C)
 - [[Main/Kemi/Radikalreaktioner\|Radikalreaktioner]]
-- [[Polymerisationsreaktioner\|Polymerisationsreaktioner]] (A + A → AA)
+- [[Main/Kemi/Polymerisationsreaktioner\|Polymerisationsreaktioner]] (A + A → AA)
 - [[Oxidationsreaktioner\|Oxidationsreaktioner]]
 - [[Kondensationsreaktion\|Kondensationsreaktion]]
 
