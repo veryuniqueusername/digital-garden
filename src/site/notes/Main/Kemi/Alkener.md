@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/main/kemi/alkener/","tags":["kemi","organisk-kemi"]}
+tags:
+  - kemi
+  - organisk-kemi
+dg-publish: true
+status: draft
 ---
-
 Alkener är omättade [[Main/Kemi/Kolväte\|kolväten]]. De har minst en dubbelbindning mellan två kol.
 
 Alkener med endast en dubbelbindning har alltid molekylformeln $\ce{ C_{n}H_{2n} }$.
@@ -200,7 +203,7 @@ Enligt [[Main/Kemi/Markovnikovs regel\|Markovnikovs regel]] bildas fler sekundä
 ```
 
 ## Alken → Polymer
-[[Polymerisationsreaktioner\|Polymerisationsreaktion]]
+[[Main/Kemi/Polymerisationsreaktioner\|Polymerisationsreaktion]]
 
 
 ```chemfig
@@ -222,7 +225,7 @@ Enligt [[Main/Kemi/Markovnikovs regel\|Markovnikovs regel]] bildas fler sekundä
 \schemestart
     \chemname
     {
-    n
+    $n$
       \chemfig{C(-[3]H)(-[5]R)=C(-[1]H)(-[7]H)}
     }
     {Alken}
