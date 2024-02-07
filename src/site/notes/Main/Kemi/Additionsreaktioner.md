@@ -6,9 +6,9 @@ En additionsreaktion är en [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]]
 
 I en additionsreaktion attackerar en dubbel-/trippelbindning molekylen och bildar en [[Intermediär\|intermediär]] och en anjon, därefter attackerar anjonen det positiva kolet i intermediären.
 
-En graf för [[Gibbs fria energi\|Gibbs fria energi]] har då två toppar, där intermediären sitter i dale emellan dem.
+En graf för [[Gibbs fria energi\|Gibbs fria energi]] har då två toppar, där intermediären sitter i dalen emellan dem.
 
-## Exempel Etyn + Brom
+## Ex: Etyn + Brom
 
 ```chemfig
 \usepackage{chemfig}
