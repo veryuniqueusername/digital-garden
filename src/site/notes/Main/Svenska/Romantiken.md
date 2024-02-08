@@ -1,13 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/main/svenska/romantiken/","tags":["svenska","litteraturhistoria"]}
+tags:
+  - svenska
+  - litteraturhistoria
+dg-publish: true
+status:
 ---
-
 
 Romantiken är en litterär epok från 1770-talet till mitten av 1800-talet. Den följer förromantiken och nyklassicismen och är en reaktion mot upplysningen.
 
 ## Litterära rörelser under romantiken
 
-### Storm und Drang
+### Sturm und Drang
 
 Egentligen en rörelse under förromantiken som en reaktion mot upplysningen.
 Viktiga tänkare Wagner, Goethe och Schiller.
@@ -15,16 +18,40 @@ Viktiga tänkare Wagner, Goethe och Schiller.
 ### Jena romantiken
 
 Romantiken som skedde i studentstaden Jena. Leddes av Caroline Schlegel.
-Viktiga tänkare Fichte, Goethe och Novalis.
+Viktiga tänkare Fichte, Goethe och Novalis. Egentligen typ samma sak som romantiken.
 
 ### Realismen
 
-Strävan att skildra verkligheten som den är. Realismen kom efter det första fotografiet 1826 då man verkligen kunde se hur verkligheten var.
+Strävan att skildra verkligheten som den är. Realismen kom efter det första fotografiet 1826 då man verkligen kunde se hur verkligheten var. Trovärdiga och realistiska karaktärer.
+
+**Följetong** (från franskan: *feuilleton* och *feuille* för blad i en bok) är en sammanhängande berättelse publicerad i avsnitt. Exempel Charles Dickens *Oliver Twist* och Arthur Conan Doyles *Sherlock Holmes*. Uppkom i den tidiga realismen.
 
 ### Naturalismen
 
 Motreaktion till romantiken grundad av Flaubert. Radikaliserad realism, påverkad av (inte minst) Charles Darwins *Om arternas uppkomst* (1859).
 Naturalismen grundades i stort sett av Gustave Flaubert och Émile Zola.
+
+## Filosofi och tänkare
+
+#### Karl Marx (1818-1883)
+
+Fadern till kommunismen/socialismen.
+
+- *Kommunistiska manifestet* (1848). Början av socialismen och kommunismen. Rätt kort. Kritiserar kapitalister och bourgeoisien.
+- *Kapitalet* (1867).
+
+#### Charles Darwin (1809-1882)
+
+Kom på att organismer typ utvecklade istället för att Gud gjorde allt.
+
+- *Om arternas uppkomst* (1859). Evolutionsteorin.
+
+#### Friedrich Nietzsche (1844-1900)
+
+Sick mustache. Kritiserade också moralen.
+
+- *Den glada vetenskapen* (1883)
+- *Så talade Zarathustra* (1885)
 
 ## Viktiga namn och verk
 
@@ -37,7 +64,7 @@ Viktig i Jena romantiken.
 
 #### Johann Wolfgang von Goethe (1749-1832)
 
-- *Den unge Werthers lidanden* (1774). Roman.
+- *Den unge Werthers lidanden* (1774). Roman. Naturen speglar Werthers känslor. Projektion av karaktärernas mående.
 - *Älvkungen/Erlkönig* (1782). Dikt.
 - *Faust* (1808). Drama.
 
@@ -78,7 +105,6 @@ Både miljön och karaktärernas känsloliv skildras i detalj. Grundade naturali
  &emsp; av himmelskt ursprung i upplöst kött
  &emsp; ska evigt hos mig leva kvar!
 ur “Kadavret”
-
 
 #### Emile Zola (1840-1902)
 
@@ -152,6 +178,7 @@ Realistiska och samhällskritiska bildningsromaner, dvs. romaner som beskriver e
 #### Esaias Tegnér (1782-1846)
 
 - *Fritiofs saga* (1825). Dikt.
+- *Det eviga* (1810). Dikt.
 
 #### Erik Gustaf Geijer (1783-1847)
 
@@ -159,7 +186,7 @@ Realistiska och samhällskritiska bildningsromaner, dvs. romaner som beskriver e
 
 #### Erik Johan Stagnelius (1793-1823)
 
-- *Till förruttnelsen* (1818). Dikt.
+- *Till förruttnelsen* (1818). Dikt. Liknar förruttnelsen och därmed döden till en erotisk omfamning. Kärlek.
 
 #### Carl Jonas Love Almqvist (1793-1866)
 
@@ -182,3 +209,5 @@ Antimilitarist, tycker det är okej att lösa upp unionen med Norge, var misogyn
 
 - *Gösta Berlings saga* (1891)
 - *Kejsaren av Portugallien* (1914)
+
+Sagotant.
