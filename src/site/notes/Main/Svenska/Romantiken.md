@@ -1,10 +1,7 @@
 ---
-tags:
-  - svenska
-  - litteraturhistoria
-dg-publish: true
-status:
+{"dg-publish":true,"permalink":"/main/svenska/romantiken/","tags":["svenska","litteraturhistoria"]}
 ---
+
 
 Romantiken är en litterär epok från 1770-talet till mitten av 1800-talet. Den följer förromantiken och nyklassicismen och är en reaktion mot upplysningen.
 
@@ -19,17 +16,6 @@ Viktiga tänkare Wagner, Goethe och Schiller.
 
 Romantiken som skedde i studentstaden Jena. Leddes av Caroline Schlegel.
 Viktiga tänkare Fichte, Goethe och Novalis. Egentligen typ samma sak som romantiken.
-
-### Realismen
-
-Strävan att skildra verkligheten som den är. Realismen kom efter det första fotografiet 1826 då man verkligen kunde se hur verkligheten var. Trovärdiga och realistiska karaktärer.
-
-**Följetong** (från franskan: *feuilleton* och *feuille* för blad i en bok) är en sammanhängande berättelse publicerad i avsnitt. Exempel Charles Dickens *Oliver Twist* och Arthur Conan Doyles *Sherlock Holmes*. Uppkom i den tidiga realismen.
-
-### Naturalismen
-
-Motreaktion till romantiken grundad av Flaubert. Radikaliserad realism, påverkad av (inte minst) Charles Darwins *Om arternas uppkomst* (1859).
-Naturalismen grundades i stort sett av Gustave Flaubert och Émile Zola.
 
 ## Filosofi och tänkare
 
@@ -91,12 +77,6 @@ Franska revolutionen var viktig för bildningen av romantiken.
 
 - *Pappa Goriot* (1835) som är en del av romanprojektet *Den mänskliga komedin*, som är en nickning till *Den gudomliga komedin*. Den mänskliga komedin beskriver olika liv i Frankrike. Romanen är väldigt beskrivande och detaljerad.
 
-#### Gustave Flaubert (1821-1880)
-
-- *Madame Bovary* (1857)
-
-Både miljön och karaktärernas känsloliv skildras i detalj. Grundade naturalismen.
-
 #### Charles Baudelaire (1821-1867)
 
 - Diktsamling *De ondas blommor* (1857). De fula, grymma och äckliga skildras i diktform.
@@ -106,12 +86,7 @@ Både miljön och karaktärernas känsloliv skildras i detalj. Grundade naturali
  &emsp; ska evigt hos mig leva kvar!
 ur “Kadavret”
 
-#### Emile Zola (1840-1902)
-
-- *Thérèse Raquin* (1867)
-- *Hallarna* (1873)
-
-Följde naturalismen.
+Var dekadent mer än romantiker.
 
 ### England
 
@@ -144,34 +119,11 @@ Make till Mary Shelley.
 
 Född Mary Wollenstonecraft, dotter till feministen Mary Wollenstonecraft.
 
-#### Charles Dickens (1812-1870)
-
-- *Oliver twist* (1838)
-- *David Copperfield* (1850)
-- *En julsaga* (1843)
-
-Skrev om saker som han själv har upplevt. Följde realismen.
-
-### Ryssland
-
-#### Fjodor Dostojevskij (1821-1881)
-
-- *Brott och straff* (1866)
-- *Bröderna Karamazov* (1880)
-- *Idioten* (1869)
-
 ### USA
 
 #### Edgar Allan Poe (1809-1849)
 
 Skrev många skräcknoveller. Viktig för senromantiken i USA.
-
-#### Mark Twain (1835-1910)
-
-- *Tom Sawyers äventyr* (1876)
-- *Huckleberry Finns äventyr* (1884)
-
-Realistiska och samhällskritiska bildningsromaner, dvs. romaner som beskriver en uppväxt. Skrev om slaveri.
 
 ### Sverige
 
@@ -192,18 +144,7 @@ Realistiska och samhällskritiska bildningsromaner, dvs. romaner som beskriver e
 
 - *Det går an* (1838). Skandalroman som ifrågasätter äktenskapet, kvinnans underordning samt könsroller. Blev åtalad på grund av verket.
 
-Retar upp så många personer i sin kritik att han flydde till USA.
-
-#### August Strindberg (1849-1912)
-
-- *Röda rummet* (1879). Här börjar nysvenskan.
-- *Giftas* (1884)
-- *Tjänstekvinnans son* (1886)
-- *Inferno* (1897)
-- *Fröken Julie* (1888). Dramatik. Naturalism, “Ett naturalistiskt sorgespel”
-- *Ett drömspel* (1902). Dramatik.
-
-Antimilitarist, tycker det är okej att lösa upp unionen med Norge, var misogyn.
+Retar upp så många personer i sin kritik att han flydde till USA. Följde både [[Main/Svenska/Realismen\|realismen]] och romantiken.
 
 #### Selma Lagerlöf (1858-1940)
 
