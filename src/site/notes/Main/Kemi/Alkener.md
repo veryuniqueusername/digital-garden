@@ -1,10 +1,7 @@
 ---
-tags:
-  - kemi
-  - organisk-kemi
-dg-publish: true
-status: draft
+{"dg-publish":true,"permalink":"/main/kemi/alkener/","tags":["kemi","organisk-kemi"]}
 ---
+
 Alkener är omättade [[Main/Kemi/Kolväte\|kolväten]]. De har minst en dubbelbindning mellan två kol.
 
 Alkener med endast en dubbelbindning har alltid molekylformeln $\ce{ C_{n}H_{2n} }$.
