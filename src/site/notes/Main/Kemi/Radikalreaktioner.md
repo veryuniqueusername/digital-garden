@@ -1,10 +1,7 @@
 ---
-tags:
-  - kemi
-  - organisk-kemi
-dg-publish: true
-status: draft
+{"dg-publish":true,"permalink":"/main/kemi/radikalreaktioner/","tags":["kemi","organisk-kemi"]}
 ---
+
 Radikalreaktioner är en sorts [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]] där radikaler inducerar substitutions-, additions- eller eliminationsreaktioner. De består alltid av tre steg:
 
 1. **Initiering** - [[Fria radikaler\|Fria radikaler]] bildas.
