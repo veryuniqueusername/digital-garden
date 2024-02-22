@@ -6,7 +6,42 @@ En additionsreaktion är en [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]]
 
 I en additionsreaktion attackerar en dubbel-/trippelbindning molekylen och bildar en [[Intermediär\|intermediär]] och en anjon, därefter attackerar anjonen det positiva kolet i intermediären.
 
-En graf för [[Gibbs fria energi\|Gibbs fria energi]] har då två toppar, där intermediären sitter i dalen emellan dem.
+En graf för [[Gibbs fria energi\|Gibbs fria energi]] har då två toppar, där intermediären sitter i dalen emellan dem. Additionsreaktioner är också nästan alltid [[Main/Kemi/Entalpi#^exoterm\|exoterma]].
+
+```tikz
+\usetikzlibrary{arrows.meta, decorations.pathreplacing}
+
+%skip 0°
+	\definecolor{color_red}{RGB}{238, 20, 1}
+	\definecolor{color_orange}{RGB}{223, 70, 0}
+	\definecolor{color_yellow}{RGB}{183, 112, 0}
+	% skip 120°
+	\definecolor{color_green}{RGB}{0, 163, 19}
+	\definecolor{color_teal}{RGB}{0, 168, 134}
+	\definecolor{color_blue}{RGB}{0, 158, 206}
+	% skip 240°
+	\definecolor{color_indigo}{RGB}{77, 105, 255}
+	\definecolor{color_violet}{RGB}{154, 76, 246}
+	\definecolor{color_pink}{RGB}{201, 48, 194}
+
+\begin{document}
+
+\begin{tikzpicture}[>=Straight Barb]
+\draw[thick, <->] (0,6.5)node[below left=2pt]{$E$} -- (0,0) -- (8.5,0);
+\coordinate (A) at (0,2.5);
+\coordinate (B) at (1.5,2.5); \draw (B)++(-0.5,-0.25) node {reaktant};
+\coordinate (C) at (3.0, 4.5);
+\coordinate (D) at (3.8,3.8); \draw (D)++(0,-0.25) node {intermediär};
+\coordinate (E) at (4.6,4.2);
+\coordinate (F) at (5.8,1.8); \draw (F)++(0.5,-0.25) node {produkt};
+\draw[thick, color_red, looseness=.7] (A) -- (B) to[out=0, in=180] (C) to[out=0, in=180] (D) to[out=0, in=180] (E) to[out=0, in=180] (F) --++ (2,0);
+\draw[dashed] (B) --++ (6.5,0);
+\draw[decorate, decoration=brace, thick] (8.1,2.5)--node[right]{$\Delta G$}(8.1,1.8);
+\end{tikzpicture}
+
+\end{document}
+```
+
 
 ## Ex: Etyn + Brom
 
