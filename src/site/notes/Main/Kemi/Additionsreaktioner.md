@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/kemi/additionsreaktioner/","tags":["kemi","organisk-kemi"]}
 ---
 
-En additionsreaktion är en [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]] där ett omättat [[Main/Kemi/Kolväte\|kolväte]] adderar en molekyl för att bilda ett mättat kolväte. Additionsreaktioner följer [[Main/Kemi/Markovnikovs regel\|Markovnikovs regel]].
+En additionsreaktion är en [[Main/Kemi/Reaktionsmekanismer\|reaktionsmekanism]] där ett omättat [[Main/Kemi/Kolväte\|kolväte]] adderar en molekyl för att bilda ett mer mättat kolväte. Additionsreaktioner följer [[Main/Kemi/Markovnikovs regel\|Markovnikovs regel]].
 
 I en additionsreaktion attackerar en dubbel-/trippelbindning molekylen och bildar en [[Intermediär\|intermediär]] och en anjon, därefter attackerar anjonen det positiva kolet i intermediären.
 
@@ -33,7 +33,7 @@ En graf för [[Gibbs fria energi\|Gibbs fria energi]] har då två toppar, där 
 \coordinate (C) at (3.0, 4.5);
 \coordinate (D) at (3.8,3.8); \draw (D)++(0,-0.25) node {intermediär};
 \coordinate (E) at (4.6,4.2);
-\coordinate (F) at (5.8,1.8); \draw (F)++(0.5,-0.25) node {produkt};
+\coordinate (F) at (5.8,1.8); \draw (F)++(1,-0.25) node {produkt};
 \draw[thick, color_red, looseness=.7] (A) -- (B) to[out=0, in=180] (C) to[out=0, in=180] (D) to[out=0, in=180] (E) to[out=0, in=180] (F) --++ (2,0);
 \draw[dashed] (B) --++ (6.5,0);
 \draw[decorate, decoration=brace, thick] (8.1,2.5)--node[right]{$\Delta G$}(8.1,1.8);
