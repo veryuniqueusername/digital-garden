@@ -8,7 +8,7 @@ De reaktionsmekanismer som finns är
 
 - [[Main/Kemi/Substitutionsreaktioner\|Substitutionsreaktioner]] (Aa + Bb → Ab + Ba)
 - [[Main/Kemi/Additionsreaktioner\|Additionsreaktioner]] (A + B → C)
-- [[Eliminationsreaktioner\|Eliminationsreaktioner]] (A → B + C)
+- [[Main/Kemi/Eliminationsreaktioner\|Eliminationsreaktioner]] (A → B + C)
 - [[Main/Kemi/Radikalreaktioner\|Radikalreaktioner]]
 - [[Main/Kemi/Polymerisationsreaktioner\|Polymerisationsreaktioner]] (A + A → AA)
 - [[Oxidationsreaktioner\|Oxidationsreaktioner]]
