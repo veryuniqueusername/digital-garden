@@ -28,7 +28,7 @@ Den enklaste alkanen är metan, $\ce{ CH_{4} }$.
 Alkaner kan omvandlas till [[Main/Kemi/Alkener\|Alkener]], [[Alkoholer\|Alkoholer]] och [[Main/Kemi/Halogenalkaner\|Halogenalkaner]].
 
 ## Alkan → Alken
-[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Eliminationsreaktioner\|Eliminationsreaktion]]
+[[Main/Kemi/Radikalreaktioner\|Radikalreaktion]], [[Main/Kemi/Eliminationsreaktioner\|Eliminationsreaktion]]
 Dehydrogenering, behöver en väldigt stark katalysator
 
 ```chemfig
