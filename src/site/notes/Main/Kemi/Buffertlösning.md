@@ -22,9 +22,9 @@ Om för mycket tillsätts kommer allt ha protolyserats och bufferten kommer inte
 
 När $\mathrm{[HA]=[A^-]}$ i en buffert är [[Main/Kemi/Syra-bas konstant\|$\mathrm{p}K_\mathrm{a}=\mathrm{pH}$]]. Annars kommer pH av bufferten att ligga omkring $\mathrm{p}K_\mathrm{a}$
 
-### Exempel: Ättikssyra $\mathrm{CH_{3}COOH}$
+### Exempel: Ättiksyra $\ce{CH_{3}COOH}$
 
-$\mathrm{[CH_{3}COOH]=[CH_{3}COO^-]=1\,M}$ från början. Eftersom $\mathrm{p}K_\mathrm{a} = 4{,}74$ för ättikssyra, kommer 
+$\mathrm{[CH_{3}COOH]=[CH_{3}COO^-]=1\,M}$ från början. Eftersom $\mathrm{p}K_\mathrm{a} = 4{,}74$ för ättiksyra, kommer 
 
 ```tikz
 \usepackage{pgfplots}
