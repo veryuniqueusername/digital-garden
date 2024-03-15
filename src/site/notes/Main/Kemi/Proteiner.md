@@ -2,12 +2,12 @@
 {"dg-publish":true,"permalink":"/main/kemi/proteiner/","tags":["#kemi","#organisk-kemi","biokemi"]}
 ---
 
-Ett protein är en veckad [[Peptider\|polypeptid]].
+Ett protein är en veckad [[Main/Kemi/Peptider\|polypeptid]].
 
 - Fiberprotein
-	- $\alpha$-ketarin
+	- α-ketarin
 		- Finns i håret
-	- $\beta$-keratin
+	- β-keratin
 		- Finns i naglarna
 - Globulärt protein
 	- Enzym
@@ -16,7 +16,7 @@ Ett protein är en veckad [[Peptider\|polypeptid]].
 
 ### Proteinstruktur
 
-![Pasted image 20240228102449.png](/img/user/Main/Kemi/Pasted%20image%2020240228102449.png)
+![Proteinstrukturer.png](/img/user/Main/Kemi/Proteinstrukturer.png)
 
 #### Primär struktur
 
@@ -36,14 +36,14 @@ Ett protein är en veckad [[Peptider\|polypeptid]].
 	arrow style = thick,
 }
 
-\chemname{\chemfig{N(-[3]H)(-[5]H)-O-O-O-O-O-O-O-O-O-O-O-O-C(=[1]O)(-[7]O-H)}}
+\chemname{\chemfig{N(-[3]H)(-[5]H)-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-\bigcirc-C(=[1]O)(-[7]O-H)}}
 {Aminosyrasekvensen = vilken ordning a.s. kommer i\\}
 \end{document}
 ```
 
 #### Sekundär struktur
 
-Sekundära strukturer kan vara i $\alpha$-helix form eller $\beta$-flak/plattor/lameller form.
+Sekundära strukturer kan vara i α-helix form eller β-flak/plattor/lameller form.
 
 
 ```chemfig
